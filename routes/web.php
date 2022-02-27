@@ -24,9 +24,3 @@ Route::get('/edit', function () {
 Route::get('/create', function () {
     return view('create');
 });
-
-Route::get('/test', function () {         
-    $contacts = App\Models\Contact::all();         
-    return view('test', 
-    ['contacts' => $contacts]);     
-});
