@@ -1,4 +1,4 @@
-# hijiffy-server
+# hiContacts
 The technical challenge for the Junior Full Stack Developer position at HiJiffy
 
 # Description
