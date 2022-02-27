@@ -1,3 +1,23 @@
+# hijiffy-server
+The technical challenge for the Junior Full Stack Developer position at HiJiffy
+
+# Description
+- Create server-side code with PHP using Laravel
+- Save user into DB using Laravel Eloquent
+
+# MVP
+- Create a list of contacts that have these properties (name, email, phone and country)
+- On this list, you have the following options (create, edit and delete a contact)
+- The validation must be done in the client and server sides
+
+# Backlog
+- DB Table must be created through migration files
+- Use Laravel Seeder to fill the contacts list with random data
+- Build a search that queries every field of the list
+- Use Vue.js
+
+___________________________________________________________________________________________
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
