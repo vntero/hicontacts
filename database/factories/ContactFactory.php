@@ -17,7 +17,10 @@ class ContactFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'name' => $faker->name,
+            'email' => $faker->email,
+            'phone' => $faker->e164PhoneNumber,
+            'country' => $faker->country,
         ];
     }
 }
