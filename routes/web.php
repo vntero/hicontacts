@@ -14,15 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('contacts');
+    return view('home');
 });
 
-Route::get('/edit', function () {
-    return view('edit');
-});
-
-Route::get('/create', function () {
-    return view('create');
-});
-
-Route::resource('contacts', 'App\Http\Controllers\ContactController');
+Route::resource('/contacts', 'App\Http\Controllers\ContactController');
