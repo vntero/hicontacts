@@ -24,3 +24,5 @@ Route::get('/edit', function () {
 Route::get('/create', function () {
     return view('create');
 });
+
+Route::resource('contacts', 'App\Http\Controllers\ContactController');
