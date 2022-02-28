@@ -1,5 +1,5 @@
 # hiContacts
-The technical challenge for the Junior Full Stack Developer position at HiJiffy
+The technical challenge for a Junior Full Stack Developer position
 
 # Description
 - Create server-side code with PHP using Laravel
