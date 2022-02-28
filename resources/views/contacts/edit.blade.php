@@ -1,7 +1,12 @@
 @extends('contacts.layout')
 
 @section('content')
-    
+<div class="card text-center">
+    <div class="card-header">
+        <h2>Enter the details below:</h2>
+    </div>
+<div class="card-body">
+<div class="mb-12">
     <form action="{{ url('contacts/' .$contacts->id) }}" method="post">
         {!! csrf_field() !!}
         @method("PATCH")
@@ -14,8 +19,9 @@
         <input type="text" name="phone" id="phone" value="{{$contacts->phone}}"></br>
         <label>Country</label></br>
         <input type="text" name="country" id="country" value="{{$contacts->country}}"></br> </br>
-        <button>Update</button>
+        </div>
+        <button class="btn btn-primary">Update</button>
     </form>
-    <a href="/contacts"><button>Cancel</button></a>
-
+    <a href="/contacts"><button class="btn btn-secondary">Cancel</button></a>
+</div>
 @stop
