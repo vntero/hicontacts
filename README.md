@@ -16,6 +16,17 @@ The technical challenge for the Junior Full Stack Developer position at HiJiffy
 - Build a search that queries every field of the list
 - Use Vue.js
 
+# Development notes
+1. create git repo, clone and open it on vs code. open terminal and have fun!
+2. run npm i composer
+3. edit .zshrc file
+4. run laravel new project-name
+5. run php artisan serve
+6. views are inside resources folder and web.php is our main routing file
+7. add app.blade.php to views and @yield("content") to the html body
+8. to each view created add @extends("app") and @section ("content"), @endsection
+9. 
+
 ___________________________________________________________________________________________
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
