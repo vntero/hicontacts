@@ -16,7 +16,7 @@ Technical challenge for a Junior Full Stack Developer position
 - Build a search that queries every field of the list
 - Use Vue.js
 
-# Development notes
+# Development notes: from zero to hero
 1. create git repo, clone and open it on vs code. open terminal and have fun!
 2. run npm i composer
 3. edit .zshrc file
@@ -25,7 +25,17 @@ Technical challenge for a Junior Full Stack Developer position
 6. views are inside resources folder and web.php is our main routing file
 7. add app.blade.php to views and @yield("content") to the html body
 8. to each view created add @extends("app") and @section ("content"), @endsection
-9. 
+9. create a model, factory and migration by running php artisan make:model -f -m ModelName
+10. edit the migration file that has been created
+11. edit the factory file as well
+12. use laravel seeder
+13. edit seeder file for creating entries by running php artisan make:seeder ContactsTableSeeder
+14. edit DatabaseSeeder to enable seeder created previously
+15. add a php array to app/models/Contact.php
+16. configure the database PostgreSQL on the Google Cloud Platform
+17. install pgAdmin, create a new server and add the GCP host name
+18. allow external connections on the GCP panel (ip address)
+19. run php artisan migrate --seed
 
 ___________________________________________________________________________________________
 
